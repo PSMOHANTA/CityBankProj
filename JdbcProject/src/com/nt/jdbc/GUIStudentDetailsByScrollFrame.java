@@ -93,7 +93,7 @@ public class GUIStudentDetailsByScrollFrame extends JFrame implements ActionList
 		new GUIStudentDetailsByScrollFrame();
 	}
 
-	private class MyWindowAdapter extends WindowAdapter {
+	public class MyWindowAdapter extends WindowAdapter {
 		public void windowClosing(WindowEvent e) {
 			System.out.println("MiniProject_AllStatementsTest.windowClosing()");
 			// close jdbbc objs
